@@ -9,6 +9,7 @@ void main() {
   String name = "John";
   int age = 30;
   //So we can explicitly define types as well.
+  print("Name: $name, Age: $age, x: $x");
 
   //Some Aritmatic operators
   int a = 10;
@@ -20,6 +21,9 @@ void main() {
   double div1 = a / b; //Floating point division
   int div2 = a ~/ b; //Integer division(rounds to an integer)
 
+  print(
+    "Sum: $sum, Subtraction: $sub, Multiplication: $mul, Modulus: $mod, Division (float): $div1, Division (int): $div2",
+  );
   //String and values in print
   int temp = 35;
   print(

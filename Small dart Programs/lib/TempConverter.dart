@@ -1,5 +1,4 @@
 import 'Dart:io';
-import 'dart:math';
 
 //Function to convert Celsius to Fahrenheit and vice versa.
 double celsiusToFahrenheit() {

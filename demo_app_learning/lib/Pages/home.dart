@@ -39,7 +39,6 @@ class _HomePageState extends State<HomePage> {
                 _selectedDay = selectedDay;
                 _focusedDay = focusedDay;
               });
-
               // You can now fetch class info or modify attendance for selectedDay
               print("Clicked date: $_selectedDay");
             },

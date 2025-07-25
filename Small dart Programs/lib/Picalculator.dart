@@ -1,5 +1,3 @@
-import 'dart:math';
-
 void main() {
   const int n = 1000000; // Number of terms in the series
   double series = 1.0;

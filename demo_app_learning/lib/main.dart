@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './Pages/home.dart';
+import './Pages/Form.dart';
 
 void main() {
   runApp(
@@ -8,7 +8,7 @@ void main() {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const HomePage(),
+      home: FormPage(),
     ),
   );
 }

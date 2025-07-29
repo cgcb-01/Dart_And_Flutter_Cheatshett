@@ -24,7 +24,7 @@ String computerMove() {
 // Function to determine the winner
 String determineWinner(String player, String computer) {
   if (player == computer) {
-    return "It's a tie!";
+    return "It's a tie";
   } else if ((player == 'rock' && computer == 'scissors') ||
       (player == 'paper' && computer == 'rock') ||
       (player == 'scissors' && computer == 'paper')) {
